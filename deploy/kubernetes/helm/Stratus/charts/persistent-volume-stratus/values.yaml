@@ -1,0 +1,15 @@
+stratus:
+  ui:
+    enabled: true
+  #persistentVolume:
+  #  host: fs-2d0dd2ac.efs.us-east-1.amazonaws.com
+  #  path: "/"
+  #  type: "efs"
+  ogcpersistentVolume:
+    host: fs-2d0dd2ac.efs.us-east-1.amazonaws.com
+    path: "/"
+    type: "efs"
+  uipersistentVolume:
+    host: fs-df381f3d.efs.us-east-1.amazonaws.com
+    path: "/"
+    type: "efs"

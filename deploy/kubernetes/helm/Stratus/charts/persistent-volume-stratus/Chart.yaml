@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for Stratus Data Persistent Volumes
+name: persistent-volume-stratus
+version: 0.3.2
